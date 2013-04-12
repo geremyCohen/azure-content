@@ -2,7 +2,7 @@
 
 This HOWTO will walk you through setting up a simple PubNub 3.4 for iOS "Hello World application". Its a super-simplified walkthrough which utilizes existing code to get you running quickly.
 
-If you'd instead prefer a more robust PubNub iOS example, please refer to the iPad sample app which ships as a demo, available at <https: //github.com/pubnub/objective-c/tree/master/iOS.>
+If you'd instead prefer a more robust PubNub iOS example, please refer to the iPad sample app which ships as a demo, available at https://github.com/pubnub/objective-c/tree/master/iOS.
 
 The first step is to clone the PubNub objective-c repo:
 
@@ -53,9 +53,9 @@ The **"Choose options for adding these files"** dialog will appear.
 3.Select **"Destination: Copy items into destination group's folder"** and **"Add to targets"**  
 4.Click **Finish.**
 
-**NOTE:**  Be sure **Copy items into destination groups folder** and **Add to targets**is selected for *PubNubDemo* when copying any files from the Finder into the project.
+**NOTE:**  Be sure **"Copy items into destination groups folder"** and **"Add to targets"**is selected for *PubNubDemo* when copying any files from the Finder into the project.
 
-Next, we'll add the *PNImports.h* import statement to the **PubNubDemo-Prefix.pch** file.
+Next, we'll add the "PNImports.h" import statement to the **PubNubDemo-Prefix.pch** file.
 
 5.Delete **PubNubDemo-Prefix.pch** from the path *PubNubDemo/Supporting Files* in Project Navigator.
 
@@ -65,12 +65,13 @@ The **Move To Trash** dialog appears.
 6.Select **"Move to Trash"**.  
 7.Drag **objective-c/HOWTO_3.4/PubNubDemo/PubNubDemo-Prefix.pch**back to *PubNubDemo/Supporting Files* in Project Navigator
 
-The **Choose options for adding these files** dialog will appear.  
+The **"Choose options for adding these files"** dialog will appear.  
 
 
-8.Select **Destination: Copy items into destination group's folder** and **Add to targets**   Click **Finish.**
+8.Select **"Destination: Copy items into destination group's folder"** and **"Add to targets"**   
+9.Click **Finish.**
 
-**NOTE:** Be sure  **Copy items into destination groups folder** and  **Add to targets** is selected for *PubNubDemo* when copying files from the Finder into the project.
+**NOTE:** Be sure  **"Copy items into destination groups folder"** and  **"Add to targets"** is selected for "PubNubDemo" when copying files from the Finder into the project.
 
 ##Disable ARC for Global JSON Support
 The JSONKit library is supplied to make supporting all iOS target versions seamless and easy. Since   JSONKit library is a non-arc library, we need to tell Xcode to compile these files without ARC.
