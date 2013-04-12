@@ -10,13 +10,13 @@ The first step is to clone the PubNub objective-c repo:
 
 This will create PubNub-related files within a subdirectory called *objective-c* in the same directory you run the command from. You will need these files later.
 ##***Create a new PubNubDemo XCode Project***
+
 Lets first start with a new blank Xcode project. To create the new project:
 
 1.Open Xcode  
 2.Select **File -> New -> Project** from the menu.
 
 The **"Choose a template for your new project"** dialog will appear.  
-
 
 
 3.Select **iOS -> Application -> Single View Application.**  
