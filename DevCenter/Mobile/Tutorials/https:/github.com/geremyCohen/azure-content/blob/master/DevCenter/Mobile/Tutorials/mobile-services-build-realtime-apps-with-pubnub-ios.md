@@ -6,7 +6,7 @@ If you'd instead prefer a more robust PubNub iOS example, please refer to the iP
 
 The first step is to clone the PubNub objective-c repo:
 
-**$ git clon:https://github.com/pubnub/objective-c.git**
+**$ git clon https://github.com/pubnub/objective-c.git**
 
 This will create PubNub-related files within a subdirectory called *objective-c* in the same directory you run the command from. You will need these files later.
 ##***Create a new PubNubDemo XCode Project***
@@ -29,7 +29,7 @@ The **"Choose options for your new project"** dialog will be shown next.
 
 
 
-**NOTE:** Don't actually enter **"XYZ"** for Class Prefix. Leave it blank, and it will display "XYZ" as placeholder text.
+**NOTE:** Don't actually enter **"XYZ"** for "Class Prefix". Leave it blank, and it will display "XYZ" as placeholder text.
 
 5.Click the **"Next"** button to proceed.  
 6.Select the folder which to save the project.  
@@ -41,7 +41,8 @@ Next, we'll import and configure the PubNub libraries we obtained from the git c
 
 ##Import and Configure the PubNub Libraries
 
-1.Open a Finder window to the directory created by the previous "git clone", and select the **objective-c/iOS/3.4/pubnub/libs** directory.
+1.Open a Finder window to the directory created by the previous "git clone", and select the 
+**objective-c/iOS/3.4/pubnub/libs** directory.
 
 
 2.Drag the **libs** directory from the Finder window to just below the file **ViewController.xib** in your Xcode project's Project view.  
@@ -53,7 +54,7 @@ The **"Choose options for adding these files"** dialog will appear.
 3.Select **"Destination: Copy items into destination group's folder"** and **"Add to targets"**  
 4.Click **Finish.**
 
-**NOTE:**  Be sure **"Copy items into destination groups folder"** and **"Add to targets"**is selected for *PubNubDemo* when copying any files from the Finder into the project.
+**NOTE:**  Be sure **"Copy items into destination groups folder"** and **"Add to targets"** is selected for *PubNubDemo* when copying any files from the Finder into the project.
 
 Next, we'll add the "PNImports.h" import statement to the **PubNubDemo-Prefix.pch** file.
 
@@ -63,7 +64,8 @@ The **Move To Trash** dialog appears.
 
 
 6.Select **"Move to Trash"**.  
-7.Drag **objective-c/HOWTO_3.4/PubNubDemo/PubNubDemo-Prefix.pch**back to *PubNubDemo/Supporting Files* in Project Navigator
+7.Drag **objective-c/HOWTO_3.4/PubNubDemo/PubNubDemo-Prefix.pch** back to 
+*PubNubDemo/Supporting Files* in Project Navigator
 
 The **"Choose options for adding these files"** dialog will appear.  
 
@@ -76,7 +78,7 @@ The **"Choose options for adding these files"** dialog will appear.
 ##Disable ARC for Global JSON Support
 The JSONKit library is supplied to make supporting all iOS target versions seamless and easy. Since   JSONKit library is a non-arc library, we need to tell Xcode to compile these files without ARC.
 
-1.From *Project Navigator*(the 1st vertical Xcode pane), click on the project name **PubNubDemo**    
+1.From *Project Navigator* (the 1st vertical Xcode pane), click on the project name **PubNubDemo**    
 2.In the 2nd pane, click *PubNubDemo* under **"Targets"**.    
 3.In the 3rd pane, from the top horizontal tab menu, click *Build Phases*     
 4.Expand *Compile Sources*  
