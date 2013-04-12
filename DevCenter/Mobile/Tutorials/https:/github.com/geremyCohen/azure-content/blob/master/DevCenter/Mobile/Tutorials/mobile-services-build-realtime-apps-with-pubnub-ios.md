@@ -1,4 +1,4 @@
- #**iOS SimpleSubscribe in 10 minutes with PubNub 3.4 on iOS**
+#**iOS SimpleSubscribe in 10 minutes with PubNub 3.4 on iOS**
 
 This HOWTO will walk you through setting up a simple PubNub 3.4 for iOS "Hello World application". Its a super-simplified walkthrough which utilizes existing code to get you running quickly.
 
@@ -6,7 +6,7 @@ If you'd instead prefer a more robust PubNub iOS example, please refer to the iP
 
 The first step is to clone the PubNub objective-c repo:
 
-**[$ git clone]:https://github.com/pubnub/objective-c.git**
+**$ git clon:https://github.com/pubnub/objective-c.git**
 
 This will create PubNub-related files within a subdirectory called *objective-c* in the same directory you run the command from. You will need these files later.
 ##***Create a new PubNubDemo XCode Project***
@@ -41,10 +41,10 @@ Next, we'll import and configure the PubNub libraries we obtained from the git c
 
 ##Import and Configure the PubNub Libraries
 
-1.Open a Finder window to the directory created by the previous "git clone", and select the   **objective-c/iOS/3.4/pubnub/libs**directory.
+1.Open a Finder window to the directory created by the previous "git clone", and select the **objective-c/iOS/3.4/pubnub/libs** directory.
 
 
-2.Drag the **libs** directory from the Finder window to just below the file **ViewController\.xib** in your Xcode project's Project view.  
+2.Drag the **libs** directory from the Finder window to just below the file **ViewController.xib** in your Xcode project's Project view.  
 
 
 The **"Choose options for adding these files"** dialog will appear.  
@@ -53,46 +53,46 @@ The **"Choose options for adding these files"** dialog will appear.
 3.Select **"Destination: Copy items into destination group's folder"** and **"Add to targets"**  
 4.Click **Finish.**
 
-**NOTE:**  Be sure **Copy items into destination groups folder**and **Add to targets**is selected for*PubNubDemo* when copying any files from the Finder into the project.
+**NOTE:**  Be sure **Copy items into destination groups folder** and **Add to targets**is selected for *PubNubDemo* when copying any files from the Finder into the project.
 
-Next, we'll add the *PNImports\.h* import statement to the **PubNubDemo-Prefix.pch** file.
+Next, we'll add the *PNImports.h* import statement to the **PubNubDemo-Prefix.pch** file.
 
-5.Delete **PubNubDemo-Prefix.pch** from the path *PubNubDemo/Supporting Files* in   Project Navigator.
+5.Delete **PubNubDemo-Prefix.pch** from the path *PubNubDemo/Supporting Files* in Project Navigator.
 
-The**Move To Trash**dialog appears.  
+The **Move To Trash** dialog appears.  
 
 
 6.Select **"Move to Trash"**.  
 7.Drag **objective-c/HOWTO_3.4/PubNubDemo/PubNubDemo-Prefix.pch**back to *PubNubDemo/Supporting Files* in Project Navigator
 
-The**Choose options for adding these files** dialog will appear.  
+The **Choose options for adding these files** dialog will appear.  
 
 
-8.Select ** Destination: Copy items into destination group's folder** and **Add to targets**   Click **Finish.**
+8.Select **Destination: Copy items into destination group's folder** and **Add to targets**   Click **Finish.**
 
 **NOTE:** Be sure  **Copy items into destination groups folder** and  **Add to targets** is selected for *PubNubDemo* when copying files from the Finder into the project.
 
 ##Disable ARC for Global JSON Support
 The JSONKit library is supplied to make supporting all iOS target versions seamless and easy. Since   JSONKit library is a non-arc library, we need to tell Xcode to compile these files without ARC.
 
-1.From *Project Navigator*(the 1st vertical Xcode pane), click on the project name **PubNubDemo**  
-2.In the 2nd pane, click *PubNubDemo* under **"Targets"**.  
-3.In the 3rd pane, from the top horizontal tab menu, click *Build Phases*  
-4.Expand *Compile Sources*
-5.Command-click **JSON.m** and **JSONKit.m**
-6.Press **Enter** to open a flags textfield
-7.Paste in the string **-fno-objc-arc**
+1.From *Project Navigator*(the 1st vertical Xcode pane), click on the project name **PubNubDemo**    
+2.In the 2nd pane, click *PubNubDemo* under **"Targets"**.    
+3.In the 3rd pane, from the top horizontal tab menu, click *Build Phases*     
+4.Expand *Compile Sources*  
+5.Command-click **JSON.m** and **JSONKit.m**  
+6.Press **Enter** to open a flags textfield  
+7.Paste in the string **-fno-objc-arc**  
 
 
 8.Press **Enter** when done.
 
 Next, we need to define the additional framework support required to run our PubNub application. From the current *Build Phases* screen:
 
-9.Close (un-expand) the *Compile Sources* dropdown.
-10.Expand *Link Binary With Libraries* dropdown.
-11.Click the + button
-12.Add **CFNetwork.Framework**
-13.Add**libz.dylib**
+9.Close (un-expand) the *Compile Sources* dropdown. 
+10.Expand *Link Binary With Libraries* dropdown.  
+11.Click the + button  
+12.Add **CFNetwork.Framework**  
+13.Add **libz.dylib**  
 14.Add **SystemConfiguration.Framework**
 
 
@@ -109,7 +109,7 @@ App delegate logic can handle many PubNub-related tasks, such as receiving messa
       PNLog(PNLogGeneralLevel, self, @"PubNub client received message: %@", message);
     }
 
-3.Modify your **AppDelegate\.m **file. Immediately before the returnYES; statement, in the
+3.Modify your **AppDelegate.m** file. Immediately before the returnYES; statement, in the
 
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 
@@ -117,7 +117,7 @@ method, add the following:
 
     [PubNubsetDelegate:self];
 ##Modify the ViewController files:
-1.Modify your **ViewController\.m **file. Immediately after [super viewDidLoad]; add the following code to make PubNub connect and subscribe just as the view loads:
+1.Modify your **ViewController.m** file. Immediately after [super viewDidLoad]; add the following code to make PubNub connect and subscribe just as the view loads:
 
 
      // amongst other things, set the sub/pub keys to demo
