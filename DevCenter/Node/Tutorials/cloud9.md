@@ -1,7 +1,7 @@
-<properties linkid="dev-nodejs-cloud9" urlDisplayName="Deploying with Cloud9" pageTitle="Node.js deploying with Cloud9 - Windows Azure tutorial" metaKeywords="Cloud9 IDE Azure, Azure node.js, Azure node apps" metaDescription="Learn how to use Cloud9 IDE to develop, build, and deploy a Node.js application to Windows Azure." metaCanonical="" disqusComments="1" umbracoNaviHide="1" writer="larryfr" />
+<!--<properties linkid="dev-nodejs-cloud9" urlDisplayName="Deploying with Cloud9" pageTitle="Node.js deploying with Cloud9 - Windows Azure tutorial" metaKeywords="Cloud9 IDE Azure, Azure node.js, Azure node apps" metaDescription="Learn how to use Cloud9 IDE to develop, build, and deploy a Node.js application to Windows Azure." metaCanonical="" disqusComments="1" umbracoNaviHide="1" writer="larryfr" />
 
 
-<div chunk="../chunks/article-left-menu.md" />
+<div chunk="../chunks/article-left-menu.md" />-->
 
 # Deploying a Windows Azure App from Cloud9
 
@@ -10,10 +10,10 @@ deploy a Node.js application to Windows Azure.
 
 In this tutorial you will learn how to:
 
--   Create a Cloud9 IDE project
--   Deploy the project to Windows Azure
--   Update an existing Windows Azure deployment
--   Move projects between staging and production deployments
+-Create a Cloud9 IDE project
+-Deploy the project to Windows Azure
+- Update an existing Windows Azure deployment
+- Move projects between staging and production deployments
 
 [Cloud9 IDE][] provides a cross-platform, browser-based development
 environment. One of the features Cloud9 supports for Node.js projects is
@@ -128,7 +128,7 @@ you do not have Node.js 0.6.x selected.</p>
 
 3.  To stop debugging the application, click **stop**.
 
-## Create a Windows Azure Account
+##Create a Windows Azure Account
 
 To deploy your application to Windows Azure, you need an account. If you
 do not already have a Windows Azure account, you can sign up for a free
