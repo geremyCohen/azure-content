@@ -1,7 +1,7 @@
-﻿<properties linkid="dev-nodejs-how-to-service-bus-topics" urlDisplayName="Service Bus Topics" pageTitle="How to use Service Bus topics (Node.js) - Windows Azure" metaKeywords="Get started Azure Service Bus topics, Get Started Service Bus topics, Azure publish subscribe messaging, Azure messaging topics and subscriptions, Service Bus topic Node.js" metaDescription="Learn how to use Service Bus topics and subscriptions in Windows Azure. Code samples are written for Node.js applications." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
+﻿<!--<properties linkid="dev-nodejs-how-to-service-bus-topics" urlDisplayName="Service Bus Topics" pageTitle="How to use Service Bus topics (Node.js) - Windows Azure" metaKeywords="Get started Azure Service Bus topics, Get Started Service Bus topics, Azure publish subscribe messaging, Azure messaging topics and subscriptions, Service Bus topic Node.js" metaDescription="Learn how to use Service Bus topics and subscriptions in Windows Azure. Code samples are written for Node.js applications." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
 
 
-<div chunk="../chunks/article-left-menu.md" />
+<div chunk="../chunks/article-left-menu.md" />-->
 
 # How to Use Service Bus Topics/Subscriptions
 
@@ -14,20 +14,20 @@ and subscriptions, see the [Next Steps][] section.
 
 ## Table of Contents
 
--   [What are Service Bus Topics and Subscriptions?][]
--   [Create a Service Namespace][]
--   [Obtain the Default Management Credentials for the Namespace][]
--   [Create a Node.js Application][]
--   [Configure Your Application to Use Service Bus][]
--   [How to: Create a Topic][]
--   [How to: Create Subscriptions][]
--   [How to: Send Messages to a Topic][]
--   [How to: Receive Messages from a Subscription][]
--   [How to: Handle Application Crashes and Unreadable Messages][]
--   [How to: Delete Topics and Subscriptions][]
--   [Next Steps][1]
+-[What are Service Bus Topics and Subscriptions?][]  
+-[Create a Service Namespace][]  
+-[Obtain the Default Management Credentials for the Namespace][]  
+-[Create a Node.js Application][]  
+-[Configure Your Application to Use Service Bus][]  
+-[How to: Create a Topic][]  
+-[How to: Create Subscriptions][]  
+-[How to: Send Messages to a Topic][]  
+-[How to: Receive Messages from a Subscription][]  
+-[How to: Handle Application Crashes and Unreadable Messages][]  
+-[How to: Delete Topics and Subscriptions][]  
+-[Next Steps][1]  
 
-<div chunk="../../shared/chunks/howto-service-bus-topics.md" />
+<!--<div chunk="../../shared/chunks/howto-service-bus-topics.md" />-->
 
 ## Create a Node.js Application
 
