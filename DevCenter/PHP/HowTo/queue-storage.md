@@ -1,6 +1,6 @@
-<properties linkid="develop-php-queue-service" urlDisplayName="Queue Service" pageTitle="How to use the queue service (PHP) - Windows Azure feature guide" metaKeywords="Windows Azure Queue Service messaging PHP" metaDescription="Learn how to use the Windows Azure Queue service to create and delete queues, and insert, get, and delete messages. Samples written in PHP." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
+<!--<properties linkid="develop-php-queue-service" urlDisplayName="Queue Service" pageTitle="How to use the queue service (PHP) - Windows Azure feature guide" metaKeywords="Windows Azure Queue Service messaging PHP" metaDescription="Learn how to use the Windows Azure Queue service to create and delete queues, and insert, get, and delete messages. Samples written in PHP." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
 
-<div chunk="../chunks/article-left-menu.md" />
+<div chunk="../chunks/article-left-menu.md" />-->
 
 # How to use the Queue service from PHP
 
@@ -24,11 +24,11 @@ This guide will show you how to perform common scenarios using the Windows Azure
 * [How to: Delete a queue](#delete-queue)
 * [Next steps](#next-steps)
 
-<div chunk="../../Shared/Chunks/howto-queue-storage.md" />
+<!--<div chunk="../../Shared/Chunks/howto-queue-storage.md" />-->
 
 <h2><a id="create-account"></a>Create a Windows Azure storage account</h2>
 
-<div chunk="../../Shared/Chunks/create-storage-account.md" />
+<!--<div chunk="../../Shared/Chunks/create-storage-account.md" />-->
 
 <h2><a id="create-app"></a>Create a PHP application</h2>
 
@@ -38,7 +38,7 @@ In this guide, you will use Queue service features which can be called within a 
 
 <h2><a id="GetClientLibrary"></a>Get the Windows Azure Client Libraries</h2>
 
-<div chunk="../../Shared/Chunks/get-client-libraries.md" />
+<!--<div chunk="../../Shared/Chunks/get-client-libraries.md" />-->
 
 <h2><a id="configure-app"></a>Configure your application to access the Queue service</h2>
 
