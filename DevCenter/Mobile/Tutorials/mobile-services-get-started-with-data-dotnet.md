@@ -1,6 +1,6 @@
-<properties linkid="develop-mobile-tutorials-get-started-with-data-dotnet" urlDisplayName="Get Started with Data" pageTitle="Get started with data - Windows Azure Mobile Services" metaKeywords="" metaDescription="Learn how to get started using data with Windows Azure Mobile Services." metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
+<!-- properties linkid="develop-mobile-tutorials-get-started-with-data-dotnet" urlDisplayName="Get Started with Data" pageTitle="Get started with data - Windows Azure Mobile Services" metaKeywords="" metaDescription="Learn how to get started using data with Windows Azure Mobile Services." metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
 
-<div chunk="../chunks/article-left-menu-windows-store.md" />
+<div chunk="../chunks/article-left-menu-windows-store.md" />-->
 
 # Get started with data in Mobile Services
 
