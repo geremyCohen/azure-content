@@ -1,4 +1,3 @@
-
 # Staging an Application in Windows Azure
 
 A packaged application can be deployed to the staging environment in
@@ -11,8 +10,8 @@ application is working correctly, it can be deployed to the production
 environment by performing a Virtual IP (VIP) swap.
 
 <div class="dev-callout">
-	<b>Note</b>
-	<p>The steps in this article only apply to node applications hosted as a Windows Azure Cloud Service.</p>
+	<b>Note</b>  
+	<p>The steps in this article only apply to node applications hosted as a Windows Azure Cloud Service.</p>  
 	</div>
 
 This task includes the following steps:  
@@ -20,7 +19,7 @@ This task includes the following steps:
 -   [Step 1: Stage an Application]  
 -   [Step 2: Deploy an Application to Production by Swapping VIPs] 
 
-<h2><a id="step1"></a>Step 1: Stage an Application</h2>  
+##<a id= "step1" ></a>Step 1: Stage an Application  
 
 This task covers how to stage an application by using the **Windows Azure PowerShell** .
 
