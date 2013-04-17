@@ -23,7 +23,7 @@ messages**, and **deleting queues**.
 -   [How to: Handle application crashes and unreadable messages](#HandleCrashes)
 -   [Next steps](#NextSteps)
 
-<div chunk="../../Shared/Chunks/howto-service-bus-queues.md" />
+<!--<div chunk="../../Shared/Chunks/howto-service-bus-queues.md" />-->
 
 <h2><a id="CreateApplication"></a>Create a PHP application</h2>
 
@@ -38,7 +38,7 @@ In this guide, you will use service features which can be called within a PHP ap
 
 <h2><a id="GetClientLibrary"></a>Get the Windows Azure Client Libraries</h2>
 
-<div chunk="../../Shared/Chunks/get-client-libraries.md" />
+<!--<div chunk="../../Shared/Chunks/get-client-libraries.md" />-->
 
 <h2><a id="ConfigureApp"></a>Configure your application to use Service Bus</h2>
 
