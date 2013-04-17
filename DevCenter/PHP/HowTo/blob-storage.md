@@ -1,6 +1,6 @@
-<properties linkid="develop-php-blob-service" urlDisplayName="Blob Service" pageTitle="How to use blob storage (PHP) - Windows Azure feature guide" metaKeywords="Azure blob service PHP, Azure blobs PHP" metaDescription="Learn how to use the Windows Azure Blob service to upload, list, download, and delete blobs. Code samples are written in PHP." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
+<!--<properties linkid="develop-php-blob-service" urlDisplayName="Blob Service" pageTitle="How to use blob storage (PHP) - Windows Azure feature guide" metaKeywords="Azure blob service PHP, Azure blobs PHP" metaDescription="Learn how to use the Windows Azure Blob service to upload, list, download, and delete blobs. Code samples are written in PHP." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
 
-<div chunk="../chunks/article-left-menu.md" />
+<div chunk="../chunks/article-left-menu.md" />-->
 
 #How to use the Blob service from PHP
 
@@ -22,11 +22,11 @@ This guide will show you how to perform common scenarios using the Windows Azure
 * [How to: Delete a Blob container](#DeleteContainer)
 * [Next steps](#NextSteps)
 
-<div chunk="../../Shared/Chunks/howto-blob-storage.md" />
+<!--<div chunk="../../Shared/Chunks/howto-blob-storage.md" />-->
 
 <h2><a id="CreateAccount"></a>Create a Windows Azure storage account</h2>
 
-<div chunk="../../Shared/Chunks/create-storage-account.md" />
+<!--<div chunk="../../Shared/Chunks/create-storage-account.md" />-->
 
 <h2><a id="CreateApplication"></a>Create a PHP application</h2>
 
@@ -36,7 +36,7 @@ In this guide, you will use service features which can be called within a PHP ap
 
 <h2><a id="GetClientLibrary"></a>Get the Windows Azure Client Libraries</h2>
 
-<div chunk="../../Shared/Chunks/get-client-libraries.md" />
+<!--<div chunk="../../Shared/Chunks/get-client-libraries.md" />-->
 
 <h2><a id="ConfigureStorage"></a>Configure your application to access the Blob service</h2>
 
