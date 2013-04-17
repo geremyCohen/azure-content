@@ -1,6 +1,6 @@
-<properties linkid="develop-php-table-service" urlDisplayName="Table Service" pageTitle="How to use table storage (PHP) - Windows Azure feature guide" metaKeywords="Azure Table service PHP, Azure creating table, Azure deleting table, Azure insert table, Azure query table" metaDescription="Learn how to use the Table service from PHP to create and delete a table, and insert, delete, and query the table." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
+<!--<properties linkid="develop-php-table-service" urlDisplayName="Table Service" pageTitle="How to use table storage (PHP) - Windows Azure feature guide" metaKeywords="Azure Table service PHP, Azure creating table, Azure deleting table, Azure insert table, Azure query table" metaDescription="Learn how to use the Table service from PHP to create and delete a table, and insert, delete, and query the table." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
 
-<div chunk="../chunks/article-left-menu.md" />
+<div chunk="../chunks/article-left-menu.md" />-->
 
 # How to use the Table service from PHP
 
@@ -25,11 +25,11 @@ This guide will show you how to perform common scenarios using the Windows Azure
 * [How to: Delete a table](#DeleteTable)
 * [Next Steps](#NextSteps)
 
-<div chunk="../../Shared/Chunks/howto-table-storage.md" />
+<!--<div chunk="../../Shared/Chunks/howto-table-storage.md" />-->
 
 <h2><a id="CreateAccount"></a>Create a Windows Azure storage account</h2>
 
-<div chunk="../../Shared/Chunks/create-storage-account.md" />
+<!--<div chunk="../../Shared/Chunks/create-storage-account.md" />-->
 
 <h2><a id="CreateApplication"></a>Create a PHP application</h2>
 
@@ -39,7 +39,7 @@ In this guide, you will use Table service features which can be called from with
 
 <h2><a id="GetClientLibrary"></a>Get the Windows Azure Client Libraries</h2>
 
-<div chunk="../../Shared/Chunks/get-client-libraries.md" />
+<!--<div chunk="../../Shared/Chunks/get-client-libraries.md" />-->
 
 <h2><a id="ConfigureStorage"></a>Configure your application to access the Table service</h2>
 
