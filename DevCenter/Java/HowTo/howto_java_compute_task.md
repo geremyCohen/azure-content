@@ -1,5 +1,4 @@
 
-
 # How to run a compute-intensive task in Java on a virtual machine
 
 With Windows Azure, you can use a virtual machine to handle compute-intensive tasks; for example, a virtual machine could handle tasks and deliver results to client machines or mobile applications. On completing this guide, you will have an understanding of how to create a virtual machine that runs a compute-intensive Java application that can be monitored by another Java application.
@@ -25,7 +24,7 @@ The following is an example of the Java application monitoring the compute-inten
 
 ![Traveling Salesman Problem client][client_output]
 
-<div chunk="../../Shared/Chunks/create-account-and-vms-note.md" />
+<!-- <div chunk="../../Shared/Chunks/create-account-and-vms-note.md" /> -->
 
 ## To create a virtual machine
 
