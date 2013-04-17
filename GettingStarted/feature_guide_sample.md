@@ -1,27 +1,26 @@
 ﻿<properties linkid="dev-net-how-to-sendgrid-email-service" urldisplayname="SendGrid Email Service" headerexpose="" pagetitle="SendGrid Email Service - How To - .NET - Develop" metakeywords="" footerexpose="" metadescription="" umbraconavihide="0" disquscomments="1"></properties>
 
 <div chunk="../chunks/article-left-menu.md" />
-# How to Send Email Using SendGrid with Windows Azure
+#How to Send Email Using SendGrid with Windows Azure
 
 This guide demonstrates how to perform common programming tasks with the
 SendGrid email service on Windows Azure. The samples are written in C\#
-and use the .NET API. The scenarios covered include **constructing
-email**, **sending email**, **adding attachments**, and **using
+and use the .NET API. The scenarios covered include **constructing email**, **sending email**, **adding attachments**, and **using
 filters**. For more information on SendGrid and sending email, see the
 [Next steps][] section.
 
 <a id="toc"> </a>
 <h2><span class="short-header">Table of contents</span>Table of contents</h2>
 
-[What is the SendGrid Email Service?][]   
-[Create a SendGrid account][]   
-[Reference the SendGrid .NET class library][]   
-[How to: Create an email][]   
-[How to: Send an email][]   
-[How to: Add an attachment][]   
-[How to: Use filters to enable footers, tracking, and analytics][]   
-[How to: Use additional SendGrid services][]   
-[Next steps][]
+[What is the SendGrid Email Service?][]    
+[Create a SendGrid account][]     
+[Reference the SendGrid .NET class library][]     
+[How to: Create an email][]     
+[How to: Send an email][]     
+[How to: Add an attachment][]     
+[How to: Use filters to enable footers, tracking, and analytics][]     
+[How to: Use additional SendGrid services][]     
+[Next steps][]  
 
 <a id="whatis"> </a>
 <h2><span class="short-header">What is SendGrid?</span>What is the SendGrid Email Service?</h2>
