@@ -1,8 +1,10 @@
-<properties linkid="develop-mobile-tutorials-authorize-users-in-scripts-android" urlDisplayName="Authorize Users in Scripts (Android)" pageTitle="Authorize users in scripts (Android) - Windows Azure Mobile Services" metaKeywords="Windows Azure authorizing user, Android scripts authorization, authorize mobile services" metaDescription="Learn how to authorize users with scripts in your Windows Azure Mobile Services app for Android." metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
+<!-- <properties linkid="develop-mobile-tutorials-authorize-users-in-scripts-android" urlDisplayName="Authorize Users in Scripts (Android)" pageTitle="Authorize users in scripts (Android) - Windows Azure Mobile Services" metaKeywords="Windows Azure authorizing user, Android scripts authorization, authorize mobile services" metaDescription="Learn how to authorize users with scripts in your Windows Azure Mobile Services app for Android." metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
 
-<div chunk="../chunks/article-left-menu-android.md" />
+<div chunk="../chunks/article-left-menu-android.md" /> -->
 
-# Use scripts to authorize users in Mobile Services
+
+#Use scripts to authorize users in Mobile Services
+
 <div class="dev-center-tutorial-selector"> 
 	<a href="/en-us/develop/mobile/tutorials/authorize-users-in-scripts-dotnet" title="Windows Store C#">Windows Store C#</a><a href="/en-us/develop/mobile/tutorials/authorize-users-in-scripts-js" title="Windows Store JavaScript">Windows Store JavaScript</a><a href="/en-us/develop/mobile/tutorials/authorize-users-in-scripts-wp8" title="Windows Phone 8">Windows Phone 8</a> <a href="/en-us/develop/mobile/tutorials/authorize-users-in-scripts-ios" title="iOS">iOS</a> 
 	<a href="/en-us/develop/mobile/tutorials/authorize-users-in-scripts-android" title="Android" class="current">Android</a><a href="/en-us/develop/mobile/tutorials/authorize-users-in-scripts-html" title="HTML">HTML</a>
