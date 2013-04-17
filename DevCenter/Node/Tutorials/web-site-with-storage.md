@@ -20,7 +20,7 @@ The project files for this tutorial will be stored in a directory named **taskli
 
 ![A web page displaying an empty tasklist][node-table-finished]
 
-<div class="dev-callout">
+<!--<div class="dev-callout">-->
 <strong>Note</strong>
 <p>This tutorial makes reference to the <strong>tasklist</strong> folder. The full path to this folder is omitted, as path semantics differ between operating systems. You should create this folder in a location that is easy for you to access on your local file system, such as <strong>~/node/tasklist</strong> or <strong>c:\node\tasklist</strong></p>
 </div>
@@ -42,7 +42,7 @@ Before following the instructions in this article, you should ensure that you ha
 
 * A web browser
 
-<div chunk="../../Shared/Chunks/create-account-and-websites-note.md" />
+<!--<div chunk="../../Shared/Chunks/create-account-and-websites-note.md" />-->
 
 ##Create a storage account
 
