@@ -1,10 +1,5 @@
-<properties linkid="mobile-services-how-to-XXXXX-client" urlDisplayName="XXXXX Client Library" pageTitle="How to use the XXXXX client library - Windows Azure Mobile Services feature guide" metaKeywords="Windows Azure Mobile Services, Mobile Service XXXXX client library, XXXXX client library" metaDescription="Learn how to use the XXXXX client library for Windows Azure Mobile Services." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
 
-
-
-<div chunk="../chunks/article-left-menu-XXXXX.md" />
-
-# How to use the XXXXX client library for Mobile Services
+#How to use the XXXXX client library for Mobile Services
 
 <div class="dev-center-tutorial-selector"> 
 	<a href="/en-us/develop/mobile/how-to-guides/how-to-dotnet-client" title=".NET Framework">.NET Framework</a>
