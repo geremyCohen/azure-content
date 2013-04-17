@@ -1,7 +1,7 @@
-<properties linkid="web-site-with-webmatrix" urlDisplayName="Web site with WebMatrix" pageTitle="Node.js web site with WebMatrix - Windows Azure tutorial" metaKeywords="" metaDescription="A tutorial that teaches you how to WebMatrix to develop and deploy a Node.js application to a Windows Azure web site." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
+<!--<properties linkid="web-site-with-webmatrix" urlDisplayName="Web site with WebMatrix" pageTitle="Node.js web site with WebMatrix - Windows Azure tutorial" metaKeywords="" metaDescription="A tutorial that teaches you how to WebMatrix to develop and deploy a Node.js application to a Windows Azure web site." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
 
 
-<div chunk="../chunks/article-left-menu.md" />
+<div chunk="../chunks/article-left-menu.md" />-->
 
 # Build and deploy a Node.js web site to Windows Azure using WebMatrix
 
@@ -13,7 +13,7 @@ A screenshot of the completed application is below:
 
 ![Windows Azure node Web site][webmatrix-node-completed]
 
-<div chunk="../../Shared/Chunks/create-account-and-websites-note.md" />
+<!--<div chunk="../../Shared/Chunks/create-account-and-websites-note.md" />-->
 
 ##Create a Windows Azure Web Site
 
