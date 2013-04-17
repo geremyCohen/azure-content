@@ -1,7 +1,7 @@
-<properties linkid="dev-nodejs-how-to-table-services" urlDisplayName="Table Service" pageTitle="How to use table storage (Node.js) - Windows Azure feature guide" metaKeywords="Windows Azure table storage service, Azure table service Node.js, table storage Node.js" metaDescription="Learn how to use the table storage service in Windows Azure. Code samples are written using the Node.js API." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
+<!--<properties linkid="dev-nodejs-how-to-table-services" urlDisplayName="Table Service" pageTitle="How to use table storage (Node.js) - Windows Azure feature guide" metaKeywords="Windows Azure table storage service, Azure table service Node.js, table storage Node.js" metaDescription="Learn how to use the table storage service in Windows Azure. Code samples are written using the Node.js API." metaCanonical="" disqusComments="1" umbracoNaviHide="0" />
 
 
-<div chunk="../chunks/article-left-menu.md" />
+<div chunk="../chunks/article-left-menu.md" />-->
 
 # How to Use the Table Service from Node.js
 
@@ -13,22 +13,22 @@ information on tables, see the [Next Steps][] section.
 
 ## Table of Contents
 
-* [What is the Table Service?][]   
-* [Concepts][]   
-* [Create a Windows Azure Storage Account][]   
-* [Create a Node.js Application][]   
-* [Configure your Application to Access Storage][]   
-* [Setup a Windows Azure Storage Connection][]   
-* [How To: Create a Table][]   
-* [How To: Add an Entity to a Table][]   
-* [How To: Update an Entity][]   
-* [How to: Work with Groups of Entities][]   
-* [How to: Query for an Entity][]   
-* [How to: Query a Set of Entities][]   
-* [How To: Query a Subset of Entity Properties][]   
-* [How To: Delete an Entity][]   
-* [How To: Delete a Table][]   
-* [Next Steps][]
+* [What is the Table Service?][]     
+* [Concepts][]     
+* [Create a Windows Azure Storage Account][]     
+* [Create a Node.js Application][]     
+* [Configure your Application to Access Storage][]     
+* [Setup a Windows Azure Storage Connection][]     
+* [How To: Create a Table][]     
+* [How To: Add an Entity to a Table][]     
+* [How To: Update an Entity][]     
+* [How to: Work with Groups of Entities][]     
+* [How to: Query for an Entity][]     
+* [How to: Query a Set of Entities][]     
+* [How To: Query a Subset of Entity Properties][]     
+* [How To: Delete an Entity][]     
+* [How To: Delete a Table][]     
+* [Next Steps][]  
 
 ## <a name="what-is"> </a>What is the Table Service?
 
@@ -38,11 +38,11 @@ outside the Windows Azure cloud. Windows Azure tables are ideal for
 storing structured, non-relational data. Common uses of Table services
 include:
 
--   Storing a huge amount of structured data (many TB) that is
-    automatically scaled to meet throughput demands
--   Storing datasets that don’t require complex joins, foreign keys, or
-    stored procedures and can be denormalized for fast access
--   Quickly querying data such as user profiles using a clustered index
+- Storing a huge amount of structured data (many TB) that is
+automatically scaled to meet throughput demands
+- Storing datasets that don’t require complex joins, foreign keys, or
+stored procedures and can be denormalized for fast access
+- Quickly querying data such as user profiles using a clustered index
 
 You can use the Table service to store and query huge sets of
 structured, non-relational data, and your tables scale when volume
@@ -54,31 +54,31 @@ The Table service contains the following components:
 
 ![Table1][]
 
--   **URL format:** Code addresses tables in an account using this
-    address format:   
-    http://storageaccount.table.core.windows.net/table  
+- **URL format:** Code addresses tables in an account using this
+address format:   
+http://storageaccount.table.core.windows.net/table  
       
-    You can address Azure tables directly using this address with the
-    OData protocol. For more information, see [OData.org][]
+You can address Azure tables directly using this address with the
+OData protocol. For more information, see [OData.org][]
 
--   **Storage Account:** All access to Windows Azure Storage is done
-    through a storage account. The total size of blob, table, and queue
-    contents in a storage account cannot exceed 100TB.
+- **Storage Account:** All access to Windows Azure Storage is done
+through a storage account. The total size of blob, table, and queue
+contents in a storage account cannot exceed 100TB.
 
--   **Table**: A table is an unlimited collection of entities. Tables
-    don’t enforce a schema on entities, which means a single table can
-    contain entities that have different sets of properties. An account
-    can contain many tables.
+- **Table** : A table is an unlimited collection of entities. Tables
+don’t enforce a schema on entities, which means a single table can
+contain entities that have different sets of properties. An account
+can contain many tables.
 
--   **Entity**: An entity is a set of properties, similar to a database
-    row. An entity can be up to 1MB in size.
+- **Entity** : An entity is a set of properties, similar to a database
+ row. An entity can be up to 1MB in size.
 
--   **Properties**: A property is a name-value pair. Each entity can
-    include up to 252 properties to store data. Each entity also has
-    three system properties that specify a partition key, a row key, and
-    a timestamp. Entities with the same partition key can be queried
-    more quickly, and inserted/updated in atomic operations. An entity’s
-    row key is its unique identifier within a partition.
+- **Properties**: A property is a name-value pair. Each entity can
+include up to 252 properties to store data. Each entity also has
+three system properties that specify a partition key, a row key, and
+a timestamp. Entities with the same partition key can be queried
+more quickly, and inserted/updated in atomic operations. An entity’s
+row key is its unique identifier within a partition.
 
 ## <a name="create-account"> </a>Create a Windows Azure Storage Account
 
