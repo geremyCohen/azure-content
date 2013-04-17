@@ -16,27 +16,27 @@ environment by performing a Virtual IP (VIP) swap.
 
 This task includes the following steps:  
 
--   [Step 1: Stage an Application]  
--   [Step 2: Deploy an Application to Production by Swapping VIPs] 
+-   [Step 1: Stage an Application]    
+-   [Step 2: Deploy an Application to Production by Swapping VIPs]   
 
 <--## <a id= "step1" ></a>Step 1: Stage an Application --> 
 
 This task covers how to stage an application by using the **Windows Azure PowerShell** .
 
-1.  When publishing a service, simply pass the **-Slot** parameter to
+1.When publishing a service, simply pass the **-Slot** parameter to
     the **Publish-AzureServiceProject** cmdlet.
 
     **Publish-AzureServiceProject -Slot staging**
 
-2.  Log on to the [Windows Azure Management Portal] and select **Cloud Services** . After the cloud service is created and the **Staging** column status has been updated to **Running** , click on the service name.
+2.Log on to the [Windows Azure Management Portal] and select **Cloud Services** . After the cloud service is created and the **Staging** column status has been updated to **Running** , click on the service name.
 
 	![portal displaying a running service][cloud-service]
 
-3.  Select the **Dashboard** , and then select **Staging** .
+3.Select the **Dashboard** , and then select **Staging** .
 
 	![cloud service dashboard][cloud-service-dashboard]
 
-4. Note the value in the **Site URL** entry to the right. The DNS name is an obfuscated internal ID that Windows Azure generated.
+4.Note the value in the **Site URL** entry to the right. The DNS name is an obfuscated internal ID that Windows Azure generated.
 
     ![site url][cloud-service-staging-url]
 
@@ -61,17 +61,17 @@ application to production and staged the upgraded version of the
 application.</p>
 </div>
 
-1.  Log into the [Windows Azure Management Portal],
-    click **Cloud Services** and then select the service name.
+1.Log into the [Windows Azure Management Portal],
+  click **Cloud Services** and then select the service name.
 
-2.  From the **Dashboard**, select **Staging**, and then click **Swap** at the bottom of the page. This opens the VIP Swap
-    dialog.
+2.From the **Dashboard**, select **Staging**, and then click **Swap** at the bottom of the page. This opens the VIP Swap
+  dialog.
 
     ![vip swap dialog][vip-swap-dialog]
 
-3.  Review the information, and then click **OK**. The two deployments
-    begin updating as the staging deployment switches to production and
-    the production deployment switches to staging.
+3.Review the information, and then click **OK**. The two deployments
+  begin updating as the staging deployment switches to production and
+  the production deployment switches to staging.
 
 You have successfully staged a deployment and upgraded a production
 deployment by swapping VIPs with the deployment in staging.
