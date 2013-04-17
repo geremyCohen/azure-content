@@ -1,5 +1,4 @@
 
-
 # How to Send Email Using SendGrid from Node.js
 
 This guide demonstrates how to perform common programming tasks with the
@@ -29,22 +28,22 @@ delivery, scalability, and real-time analytics, along with flexible APIs
 that make custom integration easy. Common SendGrid usage scenarios
 include:
 
--   Automatically sending receipts to customers
--   Administering distribution lists for sending customers monthly
-    e-fliers and special offers
--   Collecting real-time metrics for things like blocked e-mail, and
-    customer responsiveness
--   Generating reports to help identify trends
--   Forwarding customer inquiries
-- Email notifications from your application
+-Automatically sending receipts to customers
+-Administering distribution lists for sending customers monthly
+e-fliers and special offers  
+-Collecting real-time metrics for things like blocked e-mail, and
+customer responsiveness  
+-Generating reports to help identify trends  
+-Forwarding customer inquiries  
+-Email notifications from your application  
 
 For more information, see [http://sendgrid.com][].
 
 ## <a name="createaccount"> </a>Create a SendGrid Account
 
-<div chunk="../../Shared/Chunks/sendgrid-sign-up.md" />
+<!--<div chunk="../../Shared/Chunks/sendgrid-sign-up.md" />-->
 
-## <a name="reference"> </a>Reference the SendGrid Node.js Module
+## <a name="reference"> </a>Reference the SendGrid Node.js Module  
 
 The SendGrid module for Node.js can be installed through the node
 package manager (npm) by using the following command:
