@@ -1,6 +1,6 @@
-<properties linkid="develop-mobile-tutorials-authorize-users-in-scripts" urlDisplayName="Authorize Users in Scripts" pageTitle="Authorize users in scripts - Windows Azure Mobile Services" metaKeywords="" metaDescription="Learn how to authorize users in scripts with Windows Azure Mobile Services." metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
+<-- <properties linkid="develop-mobile-tutorials-authorize-users-in-scripts" urlDisplayName="Authorize Users in Scripts" pageTitle="Authorize users in scripts - Windows Azure Mobile Services" metaKeywords="" metaDescription="Learn how to authorize users in scripts with Windows Azure Mobile Services." metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
 
-<div chunk="../chunks/article-left-menu-windows-store.md" />
+<div chunk="../chunks/article-left-menu-windows-store.md" /> -->
 
 # Use scripts to authorize users in Mobile Services
 
