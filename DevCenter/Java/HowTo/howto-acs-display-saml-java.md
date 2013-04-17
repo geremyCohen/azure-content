@@ -3,7 +3,7 @@
 
 <div chunk="../chunks/article-left-menu.md" />
 
-# How to view SAML returned by the Windows Azure Access Control Service
+#How to view SAML returned by the Windows Azure Access Control Service
 
 This guide will show you how to view the underlying Security Assertion Markup Language (SAML) returned to your application by the Winodws Azure Access Control Service (ACS). The guide builds on the [How to Authenticate Web Users with Windows Azure Access Control Service Using Eclipse topic][], by providing code that displays the SAML information. The completed application will look similar to the following.
 
