@@ -19,7 +19,7 @@ This task includes the following steps:
 -   [Step 1: Stage an Application]  
 -   [Step 2: Deploy an Application to Production by Swapping VIPs] 
 
-##<a id= "step1" ></a>Step 1: Stage an Application  
+<--## <a id= "step1" ></a>Step 1: Stage an Application --> 
 
 This task covers how to stage an application by using the **Windows Azure PowerShell** .
 
