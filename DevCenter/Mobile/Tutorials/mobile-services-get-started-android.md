@@ -1,6 +1,6 @@
-<properties linkid="develop-mobile-tutorials-get-started-android" urlDisplayName="Get Started (Android)" pageTitle="Get Started with Windows Azure Mobile Services for Android" metaKeywords="Windows Azure Android application, mobile service Android, getting started Azure Android" metaDescription="Learn how to use Windows Azure Mobile Services with your Android app." metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
+<!-- <properties linkid="develop-mobile-tutorials-get-started-android" urlDisplayName="Get Started (Android)" pageTitle="Get Started with Windows Azure Mobile Services for Android" metaKeywords="Windows Azure Android application, mobile service Android, getting started Azure Android" metaDescription="Learn how to use Windows Azure Mobile Services with your Android app." metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
 
-<div chunk="../chunks/article-left-menu-android.md" />
+<div chunk="../chunks/article-left-menu-android.md" /> -->
 
 # <a name="getting-started"> </a>Get started with Mobile Services
 <div class="dev-center-tutorial-selector sublanding"><a href="/en-us/develop/mobile/tutorials/get-started" title="Windows Store">Windows Store</a><a href="/en-us/develop/mobile/tutorials/get-started-wp8" title="Windows Phone 8">Windows Phone 8</a><a href="/en-us/develop/mobile/tutorials/get-started-ios" title="iOS">iOS</a><a href="/en-us/develop/mobile/tutorials/get-started-android" title="Android" class="current">Android</a><a href="/en-us/develop/mobile/tutorials/get-started-html" title="HTML">HTML</a></div>
