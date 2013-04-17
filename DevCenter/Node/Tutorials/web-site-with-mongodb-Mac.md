@@ -1,7 +1,7 @@
-<properties linkid="develop-node-website-with-mongodb-mac" urlDisplayName="Web site with MongoDB" pageTitle="Node.js web site with MongoDB on a VM - Windows Azure tutorial" metaKeywords="Azure tutorial MongoDB, MongoDB store data, access data MongoDB Node, Azure Node app" metaDescription="A tutorial that teaches you how to use MongoDB to store and access data from a Node application hosted on Windows Azure." metaCanonical="http://www.windowsazure.com/en-us/develop/nodejs/tutorials/website-with-mongodb-mongolab/" disqusComments="1" umbracoNaviHide="1" />
+<!--<properties linkid="develop-node-website-with-mongodb-mac" urlDisplayName="Web site with MongoDB" pageTitle="Node.js web site with MongoDB on a VM - Windows Azure tutorial" metaKeywords="Azure tutorial MongoDB, MongoDB store data, access data MongoDB Node, Azure Node app" metaDescription="A tutorial that teaches you how to use MongoDB to store and access data from a Node application hosted on Windows Azure." metaCanonical="http://www.windowsazure.com/en-us/develop/nodejs/tutorials/website-with-mongodb-mongolab/" disqusComments="1" umbracoNaviHide="1" />
 
 
-<div chunk="../chunks/article-left-menu.md" />
+<div chunk="../chunks/article-left-menu.md" />-->
 
 # Node.js Web Application with Storage on MongoDB (Virtual Machine)
 This tutorial shows you how to use [MongoDB] to store and access data from a [node] application hosted on Windows Azure. [MongoDB] is a popular open source, high performance NoSQL database. This tutorial assumes that you have some prior experience using node, MongoDB, and [Git].
@@ -19,15 +19,15 @@ The project files for this tutorial will be stored in a directory named **taskli
 
 ![A web page displaying an empty tasklist][node-mongo-finished]
 
-<div class="dev-callout">
+<!--<div class="dev-callout">-->
 <strong>Note</strong>
 <p>This tutorial makes reference to the <strong>tasklist</strong> folder. The full path to this folder is omitted, as path semantics differ between operating systems. You should create this folder in a location that is easy for you to access on your local file system, such as <strong>~/node/tasklist</strong> or <strong>c:\node\tasklist</strong></p>
 </div>
 
-<div class="dev-callout">
+<!--<div class="dev-callout">
 <strong>Note</strong>
 <p>Many of the steps below mention using the command-line. For these steps, use the command-line for your operating system, such as <strong>Windows PowerShell</strong> (Windows) or <strong>Bash</strong> (Unix Shell). On OS X systems you can access the command-line through the Terminal application.</p>
-</div>
+</div>-->
 
 ##Prerequisites
 
@@ -37,7 +37,7 @@ Before following the instructions in this article, you should ensure that you ha
 
 * [Git]
 
-<div chunk="../../Shared/Chunks/create-account-and-websites-note.md" />
+<!--<div chunk="../../Shared/Chunks/create-account-and-websites-note.md" />-->
 
 ##Preparation
 
@@ -137,7 +137,7 @@ The **package.json** file is one of the files created by the **express** command
 		├── hooks@0.2.1
 		└── mongodb@1.0.2
 
-    <div class="dev-callout">
+   <!-- <div class="dev-callout">-->
 	<strong>Note</strong>
 	<p>You can safely ignore any message about installing the C++ bson parser.</p>
 	</div>
@@ -319,12 +319,12 @@ To test the application on your local machine, perform the following steps:
 
 The steps in this section use the Windows Azure command-line tools to create a new Windows Azure Web Site, and then use Git to deploy your application. To perform these steps you must have a Windows Azure subscription.
 
-<div class="dev-callout">
+<!--<div class="dev-callout">-->
 <strong>Note</strong>
 <p>These steps can also be performed by using the Windows Azure portal. For steps on using the Windows Azure portal to deploy a Node.js application, see <a href="/en-us/develop/nodejs/tutorials/create-a-website-(mac)/">Create and deploy a Node.js application to a Windows Azure Web Site</a>.</p>
 </div>
 
-<div class="dev-callout">
+<!--<div class="dev-callout">-->
 <strong>Note</strong>
 <p>If this is the first Windows Azure Web Site you have created, you must use the Windows Azure portal to deploy this application.</p>
 </div>
@@ -335,12 +335,12 @@ To install the command-line tools, use the following command:
 	
 	sudo npm install azure-cli -g
 
-<div class="dev-callout">
+<!--<div class="dev-callout">-->
 <strong>Note</strong>
 <p>If you have already installed the <strong>Windows Azure SDK for Node.js</strong> from the <a href="/en-us/develop/nodejs/">Windows Azure Developer Center</a>, then the command-line tools should already be installed. For more information, see <a href="/en-us/develop/nodejs/how-to-guides/command-line-tools/">Windows Azure command-line tool for Mac and Linux</a>.</p>
 </div>
 
-<div class="dev-callout">
+<!--<div class="dev-callout">-->
 <strong>Note</strong>
 <p>While the command-line tools were created primarily for Mac and Linux users, they are based on Node.js and should work on any system capable of running Node.</p>
 </div>
@@ -391,7 +391,7 @@ Before using the command-line tools with Windows Azure, you must first download 
 	<p>If this command is ran from a directory that already contains a Git repository, it will not re-initialize the directory.</p>
 	</div>
 	
-	<div class="dev-callout">
+	<!--<div class="dev-callout">-->
 	<strong>Note</strong>
 	<p>If the '--git' parameter is omitted, yet the directory contains a Git repository, the 'azure' remote will still be created.</p>
 	</div>
