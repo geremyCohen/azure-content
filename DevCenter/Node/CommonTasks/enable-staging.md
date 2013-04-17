@@ -1,5 +1,4 @@
 
-
 # Staging an Application in Windows Azure
 
 A packaged application can be deployed to the staging environment in
@@ -16,26 +15,25 @@ environment by performing a Virtual IP (VIP) swap.
 	<p>The steps in this article only apply to node applications hosted as a Windows Azure Cloud Service.</p>
 	</div>
 
-This task includes the following steps:
+This task includes the following steps:  
 
--   [Step 1: Stage an Application]
--   [Step 2: Deploy an Application to Production by Swapping VIPs]
+-   [Step 1: Stage an Application]  
+-   [Step 2: Deploy an Application to Production by Swapping VIPs] 
 
-<h2><a id="step1"></a>Step 1: Stage an Application</h2>
+<h2><a id="step1"></a>Step 1: Stage an Application</h2>  
 
-This task covers how to stage an application by using the **Windows
-Azure PowerShell**.
+This task covers how to stage an application by using the **Windows Azure PowerShell** .
 
 1.  When publishing a service, simply pass the **-Slot** parameter to
     the **Publish-AzureServiceProject** cmdlet.
 
     **Publish-AzureServiceProject -Slot staging**
 
-2.  Log on to the [Windows Azure Management Portal] and select **Cloud Services**. After the cloud service is created and the **Staging** column status has been updated to **Running**, click on the service name.
+2.  Log on to the [Windows Azure Management Portal] and select **Cloud Services** . After the cloud service is created and the **Staging** column status has been updated to **Running** , click on the service name.
 
 	![portal displaying a running service][cloud-service]
 
-3.  Select the **Dashboard**, and then select **Staging**.
+3.  Select the **Dashboard** , and then select **Staging** .
 
 	![cloud service dashboard][cloud-service-dashboard]
 
