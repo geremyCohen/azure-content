@@ -134,7 +134,7 @@ To deploy your application to Windows Azure, you need an account. If you
 do not already have a Windows Azure account, you can sign up for a free
 trial by following these steps:
 
-<div chunk="../../Shared/Chunks/create-azure-account.md" />
+<!--<div chunk="../../Shared/Chunks/create-azure-account.md" />-->
 
 ## Create a Deployment
 
