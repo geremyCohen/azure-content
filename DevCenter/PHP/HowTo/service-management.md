@@ -41,7 +41,7 @@ In this guide, you will use service features which can be called within a PHP ap
 
 <h2><a id="GetClientLibraries"></a>Get the Windows Azure Client Libraries</h2>
 
-<div chunk="../../Shared/Chunks/get-client-libraries.md" />
+<!--<div chunk="../../Shared/Chunks/get-client-libraries.md" />-->
 
 <h2><a id="Connect"></a>How to: Connect to service management</h2>
 
