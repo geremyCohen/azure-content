@@ -1,6 +1,6 @@
-﻿<properties linkid="develop-nodejs-tutorials-web-site-with-sql-database" urlDisplayName="Web site with SQL Database" pageTitle="Node.js web site with SQL Database - Windows Azure tutorial" metaKeywords="" metaDescription="Learn how to create a Node.js website that accesses a SQL Database and is deployed to Windows Azure" metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
+<!--<properties linkid="develop-nodejs-tutorials-web-site-with-sql-database" urlDisplayName="Web site with SQL Database" pageTitle="Node.js web site with SQL Database - Windows Azure tutorial" metaKeywords="" metaDescription="Learn how to create a Node.js website that accesses a SQL Database and is deployed to Windows Azure" metaCanonical="" disqusComments="1" umbracoNaviHide="1" />
 
-<div chunk="../chunks/article-left-menu.md" />
+<div chunk="../chunks/article-left-menu.md" />-->
 
 # Node.js Web Application using the Windows Azure SQL Database
 
@@ -51,7 +51,7 @@ Before following the instructions in this article, you should ensure that you ha
 
 * A web browser
 
-<div chunk="../../Shared/Chunks/create-account-and-websites-note.md" />
+<!--<div chunk="../../Shared/Chunks/create-account-and-websites-note.md" />-->
 
 ##Create a web site with database
 
