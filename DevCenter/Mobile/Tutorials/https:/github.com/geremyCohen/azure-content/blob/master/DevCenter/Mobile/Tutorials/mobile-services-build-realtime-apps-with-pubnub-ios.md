@@ -6,7 +6,7 @@ If you'd instead prefer a more robust PubNub iOS example, please refer to the iP
 
 The first step is to clone the PubNub objective-c repo:
 
-**$ git clon https://github.com/pubnub/objective-c.git**
+**$ git clone https://github.com/pubnub/objective-c.git**
 
 This will create PubNub-related files within a subdirectory called *objective-c* in the same directory you run the command from. You will need these files later.
 ##***Create a new PubNubDemo XCode Project***
