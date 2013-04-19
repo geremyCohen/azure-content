@@ -18,6 +18,8 @@ Lets first start with a new blank Xcode project. To create the new project:
 
 The **"Choose a template for your new project"** dialog will appear.  
 
+![Choose a template](https://s3.amazonaws.com/pubnub-azure-images/1.png)
+
 
 3.Select **iOS -> Application -> Single View Application.**  
 4.Click **"Next"**
@@ -25,9 +27,9 @@ The **"Choose a template for your new project"** dialog will appear.
 
 The **"Choose options for your new project"** dialog will be shown next.  
 
-**NOTE:** In order to make this HOWTO as easy as possible to follow, these following values are   suggested:  
+**NOTE:** In order to make this HOWTO as easy as possible to follow, these following values are suggested:  
 
-
+![Suggested Values](https://s3.amazonaws.com/pubnub-azure-images/2.png)
 
 **NOTE:** Don't actually enter **"XYZ"** for "Class Prefix". Leave it blank, and it will display "XYZ" as placeholder text.
 
@@ -44,12 +46,15 @@ Next, we'll import and configure the PubNub libraries we obtained from the git c
 1.Open a Finder window to the directory created by the previous "git clone", and select the 
 **objective-c/iOS/3.4/pubnub/libs** directory.
 
+![Select libs](https://s3.amazonaws.com/pubnub-azure-images/3.png)
 
 2.Drag the **libs** directory from the Finder window to just below the file **ViewController.xib** in your Xcode project's Project view.  
 
+![Drag libs](https://s3.amazonaws.com/pubnub-azure-images/4.png)
 
 The **"Choose options for adding these files"** dialog will appear.  
 
+![Choose options](https://s3.amazonaws.com/pubnub-azure-images/5.png)
 
 3.Select **"Destination: Copy items into destination group's folder"** and **"Add to targets"**  
 4.Click **Finish.**
@@ -62,6 +67,7 @@ Next, we'll add the "PNImports.h" import statement to the **PubNubDemo-Prefix.pc
 
 The **Move To Trash** dialog appears.  
 
+![Move to Trash](https://s3.amazonaws.com/pubnub-azure-images/6.png)
 
 6.Select **"Move to Trash"**.  
 7.Drag **objective-c/HOWTO_3.4/PubNubDemo/PubNubDemo-Prefix.pch** back to 
@@ -69,6 +75,7 @@ The **Move To Trash** dialog appears.
 
 The **"Choose options for adding these files"** dialog will appear.  
 
+![Choose options](https://s3.amazonaws.com/pubnub-azure-images/7.png)
 
 8.Select **"Destination: Copy items into destination group's folder"** and **"Add to targets"**   
 9.Click **Finish.**
@@ -86,6 +93,7 @@ The JSONKit library is supplied to make supporting all iOS target versions seaml
 6.Press **Enter** to open a flags textfield  
 7.Paste in the string **-fno-objc-arc**  
 
+![Choose options](https://s3.amazonaws.com/pubnub-azure-images/8.png)
 
 8.Press **Enter** when done.
 
