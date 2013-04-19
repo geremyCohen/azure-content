@@ -99,12 +99,12 @@ The JSONKit library is supplied to make supporting all iOS target versions seaml
 
 Next, we need to define the additional framework support required to run our PubNub application. From the current *Build Phases* screen:
 
-9.Close (un-expand) the *Compile Sources* dropdown. 
-10.Expand *Link Binary With Libraries* dropdown.  
-11.Click the + button  
-12.Add **CFNetwork.Framework**  
-13.Add **libz.dylib**  
-14.Add **SystemConfiguration.Framework**
+9. Close (un-expand) the *Compile Sources* dropdown. 
+10. Expand *Link Binary With Libraries* dropdown.  
+11. Click the "+" button  
+12. Add **CFNetwork.Framework**  
+13. Add **libz.dylib**  
+14. Add **SystemConfiguration.Framework**
 
 
 ##Modify the App Delegate files
